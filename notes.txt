@@ -1,0 +1,18 @@
+Dictionary Vectorizer
+
+One hot encoding - if the categories are classified as numbers 1,2,3 we try to convert them intro string so they cannot be compared for example 3>2 (3: jeans > 2 : shirts).
+
+Experimental tracking- try to store all the model mse values in a place along with model management.
+
+Ml ops-maturity model- https://learn.microsoft.com/en-us/azure/architecture/ai-ml/guide/mlops-maturity-model
+ level 0 -no mlops -- no automation all code in jupyter notebook
+ level 1 - dev ops -- some automation i.e releases. not easy to reproducibility. morely for poc(Proof of concept for production)
+ level 2 - automated training - training pipeline as well as expriment tracking and model registry.
+ level 3 - automated deployment - easy to deployment, A/B test is conducted with two different model saying which model is the best.
+ level 4 - full mlops deployment - automatic deploy using ab test and is highest level of automation.
+
+POC- level 0 can be used. 
+Once it passes the POC u can go to level 1. If u have more ML cases -level 2.
+Go to level 3 and level 4 once it is really requirred not everything should be in level 4.
+
+In our case level 2 is perfect.
