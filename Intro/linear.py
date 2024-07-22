@@ -56,7 +56,7 @@ def training_model(df_train, df_val):
 
 if __name__ == '__main__':
     df_train = read_dataframe('https://d37ci6vzurychx.cloudfront.net/trip-data/yellow_tripdata_2024-04.parquet')
-    df_val = read_dataframe('https://d37ci6vzurychx.cloudfront.net/trip-data/yellow_tripdata_2024-04.parquet')
+    df_val = read_dataframe('https://d37ci6vzurychx.cloudfront.net/trip-data/yellow_tripdata_2024-03.parquet')
     print(training_model(df_train, df_val))
 
 
