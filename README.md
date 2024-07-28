@@ -1,5 +1,3 @@
-## README
-
 # Taxi Trip Duration Prediction
 
 This project predicts the duration of taxi trips using machine learning models. It reads trip data, processes it, and trains a model to predict the trip duration based on various features. The implementation uses Ridge regression and stores the trained model using `pickle`. Additionally, experimental tracking and model registry are handled using MLflow.
